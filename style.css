@@ -1,0 +1,59 @@
+/* Universal Styles */
+body {
+    font-family: Arial, sans-serif; /* Applying a basic sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header Styles */
+#header {
+    background-color: #333; /* Dark background color for header */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding subtle shadow */
+}
+
+/* Project Section */
+.projects {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style for Project Divs */
+.project {
+    margin-bottom: 30px; /* Space between project items */
+    padding: 10px;
+    border: 2px solid #ddd; /* Border around each project */
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Style for Project Images */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Margin below the image */
+}
+
+/* Footer Styles */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
